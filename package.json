@@ -1,0 +1,26 @@
+{
+    "name": "mcp",
+    "description": "MCP Server",
+    "version": "0.0.1",
+    "publisher": "DaleLJefferson",
+    "engines": {
+        "vscode": "^1.96.2"
+    },
+    "main": "./extension.js",
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "scripts": {
+        "build": "vsce package"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.6.0",
+        "zod": "^3.24.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/vscode": "^1.96.2",
+        "typescript": "^5.7.3",
+        "@vscode/vsce": "^3.2.2"
+    }
+}
