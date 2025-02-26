@@ -6,7 +6,7 @@
     "engines": {
         "vscode": "^1.96.2"
     },
-    "main": "./extension.js",
+    "main": "./src/extension.js",
     "activationEvents": [
         "onStartupFinished"
     ],
